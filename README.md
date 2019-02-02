@@ -54,6 +54,9 @@ now you can register callbacks to the event just like any regular event (using `
     * Produces amd/commonjs/system/es2015 builds
     * This will *NOT* emit/update files if you have any typescript or tslint errors
 
+##
+I Need help regarding how to test the plugin - PR welcome
+
 ### How to run unit tests
 
   * To run the unit test with _*Jest*_ run : _```npm run test:unit```_
