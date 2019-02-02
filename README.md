@@ -27,9 +27,9 @@ initialize the plugin in your `main.js` or `main.ts`,
 you can pass optional configuration to control the name of the long-click event (defaults to "long-click"), and the click duration (defaults to 500 ms).
 
 ```js
-  import { LongClickConfig } from "aurelia-long-click-event";
+  import { LongClickConfig } from "aurelia-long-click-event"; // (for type safety)
   ...
-    .plugin(PLATFORM.moduleName("aurelia-long-click-event"), { longClickEventName: "long-click", clickDurationMS: 500 });
+    .plugin(PLATFORM.moduleName("aurelia-long-click-event"), { longClickEventName: "long-click", clickDurationMS: 500 } as LongClickConfig);
 ```
 
 now you can register callbacks to the event just like any regular event (using `trigger` or `delegate`)
