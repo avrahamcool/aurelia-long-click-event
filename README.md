@@ -16,20 +16,20 @@ npm install aurelia-long-click-event
 ```
 initialize the plugin in your `main.js` or `main.ts`,
 
-```js
+```diff
   import { PLATFORM } from "aurelia-pal";
   ...
   aurelia.use
     .standardConfiguration()
     .developmentLogging()
-    .plugin(PLATFORM.moduleName("aurelia-long-click-event"));
++    .plugin(PLATFORM.moduleName("aurelia-long-click-event"));
 ```
 you can pass optional configuration to control the name of the long-click event (defaults to "long-click"), and the click duration (defaults to 500 ms).
 
-```js
-  import { LongClickConfig } from "aurelia-long-click-event"; // (for type safety)
+```diff
++  import { LongClickConfig } from "aurelia-long-click-event"; // (for type safety)
   ...
-    .plugin(PLATFORM.moduleName("aurelia-long-click-event"), { longClickEventName: "long-click", clickDurationMS: 500 } as LongClickConfig);
++    .plugin(PLATFORM.moduleName("aurelia-long-click-event"), { longClickEventName: "long-click", clickDurationMS: 500 } as LongClickConfig);
 ```
 
 now you can register callbacks to the event just like any regular event (using `trigger` or `delegate`)
