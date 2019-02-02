@@ -1,0 +1,15 @@
+<template>
+    <div>
+        Test click, dblclick, mousedown, mouseup, <b>long-click</b> events:
+        <button
+        click.delegate="click()"
+        dblclick.delegate="dblclick()"
+        mousedown.delegate="mousedown()"
+        mouseup.delegate="mouseup()"
+
+        
+        long-click.delegate="longClick()"
+        >Click me</button>
+    </div>
+    <div repeat.for="event of events">${event}</div>
+</template>
