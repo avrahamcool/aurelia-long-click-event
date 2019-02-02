@@ -6,13 +6,13 @@ aurelia plugin for long-click event.
 
 install the plugin
 ```shell
-yarn add aurelia-long-click
+yarn add aurelia-long-click-event
 ```
 
 or
 
 ```shell
-npm install aurelia-long-click
+npm install aurelia-long-click-event
 ```
 initialize the plugin in your `main.js` or `main.ts`,
 
@@ -27,7 +27,7 @@ initialize the plugin in your `main.js` or `main.ts`,
 you can pass optional configuration to control the name of the long-click event (defaults to "long-click"), and the click duration (defaults to 500 ms).
 
 ```js
-  import { LongClickConfig } from "aurelia-long-click";
+  import { LongClickConfig } from "aurelia-long-click-event";
   ...
     .plugin(PLATFORM.moduleName("aurelia-long-click-event"), { longClickEventName: "long-click", clickDurationMS: 500 });
 ```
