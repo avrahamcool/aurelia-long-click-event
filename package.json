@@ -1,7 +1,7 @@
 {
     "folder_name": "aurelia-long-click-event",
     "name": "aurelia-long-click-event",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "aurelia plugin for long-click event",
     "keywords": [
         "aurelia",
@@ -10,9 +10,9 @@
         "click",
         "event"
     ],
-    "homepage": "https://github.com/avrahamcool/aurelia=long-click-event",
+    "homepage": "https://github.com/avrahamcool/aurelia-long-click-event",
     "bugs": {
-        "url": "https://github.com/avrahamcool/aurelia=long-click-event/issues"
+        "url": "https://github.com/avrahamcool/aurelia-long-click-event/issues"
     },
     "license": "MIT",
     "author": "Essoudry Avraham (https://github.com/avrahamcool)",
@@ -22,7 +22,7 @@
     "types": "dist/commonjs/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/avrahamcool/aurelia=long-click-event"
+        "url": "https://github.com/avrahamcool/aurelia-long-click-event"
     },
     "scripts": {
         "build": "node ./scripts/build.js",
