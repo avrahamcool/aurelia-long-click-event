@@ -1,6 +1,5 @@
 # aurelia-long-click-event
-aurelia plugin for long-click event.
-
+aurelia plugin for long-click event. [![NPM](https://img.shields.io/npm/dt/aurelia-long-click-event.svg?style=flat)](https://www.npmjs.com/package/aurelia-long-click-event)
 
 ## How to Use
 
