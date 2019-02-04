@@ -1,41 +1,38 @@
-# aurelia-long-click-event [![Total alerts](https://img.shields.io/lgtm/alerts/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/alerts/) [![NPM](https://img.shields.io/npm/dt/aurelia-long-click-event.svg?style=flat)](https://www.npmjs.com/package/aurelia-long-click-event) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/context:javascript)
+# aurelia-long-click-event [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![NPM](https://img.shields.io/npm/dt/aurelia-long-click-event.svg?label=NPM&style=flat)](https://www.npmjs.com/package/aurelia-long-click-event) [![Total alerts](https://img.shields.io/lgtm/alerts/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/context:javascript)
 
 aurelia plugin for long-click event. 
 
 ## How to Use
 
-install the plugin
+install the plugin using `yarn` or `npm`.
 ```shell
 yarn add aurelia-long-click-event
-```
-
-or
-
-```shell
 npm install aurelia-long-click-event
 ```
-initialize the plugin in your `main.js` or `main.ts`,
+
+initialize the plugin in your `main.js` or `main.ts`.
 
 ```diff
   import { PLATFORM } from "aurelia-pal";
-  ...
+
   aurelia.use
     .standardConfiguration()
     .developmentLogging()
 +    .plugin(PLATFORM.moduleName("aurelia-long-click-event"));
 ```
+
 you can pass optional configuration to control the name of the long-click event (defaults to "long-click"), and the click duration (defaults to 500 ms).
 
-```diff
-+  import { LongClickConfig } from "aurelia-long-click-event"; // (for type safety)
-  ...
-+    .plugin(PLATFORM.moduleName("aurelia-long-click-event"), { longClickEventName: "long-click", clickDurationMS: 500 } as LongClickConfig);
+```js
+  import { LongClickConfig } from "aurelia-long-click-event"; // (TS users can use this interface for strongly typed config)
+    ...
+    .plugin(PLATFORM.moduleName("aurelia-long-click-event"), { longClickEventName: "long-click", clickDurationMS: 500 });
 ```
 
 now you can register callbacks to the event just like any regular event (using `trigger` or `delegate`)
 
 ```html
-<button click.delegate="click()" long-click.delegate="longClick()">Click me</button>
+<button long-click.delegate="longClick()">long click me</button>
 ```
 
 
