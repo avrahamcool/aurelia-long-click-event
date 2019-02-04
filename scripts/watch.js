@@ -5,7 +5,6 @@
  */
 const {
   FuseBox,
-  QuantumPlugin,
   WebIndexPlugin,
   Sparky,
   HTMLPlugin,

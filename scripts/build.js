@@ -4,7 +4,7 @@
  * also copies html and css files over and updates the distTS folder
  * 
  */
-const { task, src } = require('fuse-box/sparky');
+const { src } = require('fuse-box/sparky');
 const { transpileTo } = require('./transpile');
 
 // @ts-ignore
