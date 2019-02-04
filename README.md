@@ -1,6 +1,15 @@
-# aurelia-long-click-event [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![NPM](https://img.shields.io/npm/dt/aurelia-long-click-event.svg?label=NPM&style=flat)](https://www.npmjs.com/package/aurelia-long-click-event) [![Total alerts](https://img.shields.io/lgtm/alerts/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/context:javascript)
-
+# aurelia-long-click-event
 aurelia plugin for long-click event. 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Issues](https://img.shields.io/github/issues/avrahamcool/aurelia-long-click-event.svg?style=flat)
+
+![NPMVersion](https://img.shields.io/npm/v/aurelia-long-click-event.svg?style=flat)
+[![NPMDownloads](https://img.shields.io/npm/dt/aurelia-long-click-event.svg?style=flat)](https://www.npmjs.com/package/aurelia-long-click-event) 
+![NPMSize](https://img.shields.io/bundlephobia/min/aurelia-long-click-event.svg?style=flat)
+
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/context:javascript)
+
 
 ## How to Use
 
