@@ -58,7 +58,7 @@
         "fuse-box-aurelia-loader": "^2.0.2",
         "fuse-box-typechecker": "^2.9.0",
         "jest": "^24.0.0",
-        "jest-puppeteer": "^3.0.1",
+        "jest-puppeteer": "^4.2.0",
         "jsdom": "^15.1.1",
         "less": "^3.0.4",
         "lodash": "^4.17.10",
