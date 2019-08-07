@@ -736,9 +736,9 @@ aurelia-animator-css@^1.0.4:
     aurelia-templating "^1.0.0"
 
 aurelia-binding@^2.0.0:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/aurelia-binding/-/aurelia-binding-2.3.1.tgz#fbc398a7ed193533cdb21ae46fb629c48434de8d"
-  integrity sha512-r3CbAuDZNa1k2vUOsc/C5AKE2DH1W7VpDWt2lIvCoLi8jMeXJ26Jk088V3xnBdFEmyiUjyIxzih8WqK4akZy6A==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/aurelia-binding/-/aurelia-binding-2.4.0.tgz#2854156f32aca028c31a5cd6966f97fb1a34d925"
+  integrity sha512-eyvqIvsjjXZ5UG5O/E2ZsmsWa7g8ANj8IgzAKSC2x1fhVTi0eTQJsEmjDZX1vLatFjoCbUw7ezNhu/GmMwgSxQ==
   dependencies:
     aurelia-logging "^1.0.0"
     aurelia-metadata "^1.0.0"
