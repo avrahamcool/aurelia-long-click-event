@@ -766,9 +766,9 @@ aurelia-bootstrapper@^2.2.0:
     aurelia-templating-router "^1.0.0"
 
 aurelia-dependency-injection@^1.0.0, aurelia-dependency-injection@^1.3.0, aurelia-dependency-injection@^1.3.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/aurelia-dependency-injection/-/aurelia-dependency-injection-1.4.2.tgz#fa9d1a9f4931e353fb8f938ee0c54b9fbf3f341a"
-  integrity sha512-NddvPLnKx6VQA70BXa1sfaLeEqwBfNrMaTYdHSS9kKD20lBwsXHWBZtRQPgRg9LF8g4yFKjxEgRA9Ja6SFregA==
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/aurelia-dependency-injection/-/aurelia-dependency-injection-1.5.0.tgz#3afb4dfeb70e541874f38a640ded2f792e7b9949"
+  integrity sha512-EJrWQGbdnKUXQas5HkSKMmlTpXXS9lEHsp9Du+x/Y5i5u9PPOSM1Dmr81KFx1twbRci36wtCDbe0VLQU+NKYtA==
   dependencies:
     aurelia-metadata "^1.0.0"
     aurelia-pal "^1.0.0"
@@ -853,16 +853,10 @@ aurelia-logging@^1.0.0:
   resolved "https://registry.yarnpkg.com/aurelia-logging/-/aurelia-logging-1.5.2.tgz#eddacfeded5da39808d36fd916829dd8d4c88ddd"
   integrity sha512-R0UdpGYBNSosBZ9WefmoIpgr36szFwQrRk2pbblhI+Vx911dUEEW85QXb6BRKVAP1ykz52Fuq8lCZxR6UupQXA==
 
-aurelia-metadata@^1.0.0, aurelia-metadata@^1.0.3:
+aurelia-metadata@^1.0.0, aurelia-metadata@^1.0.2, aurelia-metadata@^1.0.3:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/aurelia-metadata/-/aurelia-metadata-1.0.6.tgz#6e6bbab464b03f94157de666aa40d86b40dadab0"
   integrity sha512-u3GnsivLSssUmqPmny8EfEWPdUPcKUq1pPWO5q12i+eZ1d7WXa91eop37sYoYyGmO609YakUF1AMiY7occBrjA==
-  dependencies:
-    aurelia-pal "^1.0.0"
-
-aurelia-metadata@^1.0.2:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/aurelia-metadata/-/aurelia-metadata-1.0.4.tgz#3f3457e41add9f60547547e0c6b52a8c65347140"
   dependencies:
     aurelia-pal "^1.0.0"
 
@@ -881,15 +875,10 @@ aurelia-pal-nodejs@^1.1.0:
     aurelia-pal "^1.1.0"
     jsdom "~11.5.1"
 
-aurelia-pal@^1.0.0, aurelia-pal@^1.3.0, aurelia-pal@^1.4.0, aurelia-pal@^1.8.0:
+aurelia-pal@^1.0.0, aurelia-pal@^1.1.0, aurelia-pal@^1.3.0, aurelia-pal@^1.4.0, aurelia-pal@^1.8.0:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/aurelia-pal/-/aurelia-pal-1.8.2.tgz#9c39509ea2650291fa4bda06a4ed37d8be31f0ac"
   integrity sha512-6erozUK5aaD88PvThs/L87kLsqxqPaBU59PGECr36v9yezhve0BHqpKgbtJ8haHJSiH80K9lsJtXfefedS/3sw==
-
-aurelia-pal@^1.1.0:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/aurelia-pal/-/aurelia-pal-1.8.1.tgz#a7e9eceda17e546960f0a0bfc236a53d0f214fbd"
-  integrity sha512-8QwwS/gHdxRh0+a6pKnyVA1/xHcZV1P1nH7Vai3k+HjVLwj1cnsF/TCDx9SGedhEQxDzIryL41k6OcjwZR94Ig==
 
 aurelia-path@^1.0.0, aurelia-path@^1.1.1:
   version "1.1.3"
