@@ -793,9 +793,9 @@ aurelia-bootstrapper@^2.2.0:
     aurelia-templating-router "^1.0.0"
 
 aurelia-dependency-injection@^1.0.0, aurelia-dependency-injection@^1.3.0, aurelia-dependency-injection@^1.3.2:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/aurelia-dependency-injection/-/aurelia-dependency-injection-1.5.0.tgz#3afb4dfeb70e541874f38a640ded2f792e7b9949"
-  integrity sha512-EJrWQGbdnKUXQas5HkSKMmlTpXXS9lEHsp9Du+x/Y5i5u9PPOSM1Dmr81KFx1twbRci36wtCDbe0VLQU+NKYtA==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/aurelia-dependency-injection/-/aurelia-dependency-injection-1.5.1.tgz#b1cdddfc413e53234a1e7c47f683ac058bda19c8"
+  integrity sha512-8KruIi9IFZv0UBBq1rP3ijYz+TaGjQRIZL1MotbpYCw67gGVo7Um2qFMEvomNMSq8af8xOUZU/otMjDWllpiRA==
   dependencies:
     aurelia-metadata "^1.0.0"
     aurelia-pal "^1.0.0"
