@@ -9,7 +9,7 @@ aurelia plugin for long-click event.
 [![NPMSize](https://img.shields.io/bundlephobia/min/aurelia-long-click-event.svg?style=flat)](https://www.npmjs.com/package/aurelia-long-click-event)
 
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/avrahamcool/aurelia-long-click-event.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/avrahamcool/aurelia-long-click-event/context:javascript)
-
+[![DeepScan grade](https://deepscan.io/api/teams/5394/projects/7171/branches/67735/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=5394&pid=7171&bid=67735)
 
 ## How to Use
 
