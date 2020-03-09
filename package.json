@@ -34,7 +34,7 @@
         "test:e2e": "./node_modules/.bin/jest --config=jest.e2e.config.json"
     },
     "devDependencies": {
-        "@types/jest": "^24.0.15",
+        "@types/jest": "^25.1.4",
         "@types/lodash": "^4.14.109",
         "@types/node": "^12.6.2",
         "@types/puppeteer": "^2.0.0",
