@@ -68,7 +68,7 @@
         "stylus": "^0.54.5",
         "ts-jest": "^24.0.2",
         "tslint": "^5.10.0",
-        "typescript": "3.7.2"
+        "typescript": "3.9.2"
     },
     "dependencies": {}
 }
