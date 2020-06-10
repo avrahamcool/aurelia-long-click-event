@@ -36,7 +36,7 @@
     "devDependencies": {
         "@types/jest": "^24.0.15",
         "@types/lodash": "^4.14.109",
-        "@types/node": "^12.6.2",
+        "@types/node": "^14.0.13",
         "@types/puppeteer": "^2.0.0",
         "aurelia-animator-css": "^1.0.4",
         "aurelia-binding": "^2.0.0",
