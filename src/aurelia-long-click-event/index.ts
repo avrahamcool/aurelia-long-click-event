@@ -47,7 +47,7 @@ export function configure(_frameworkConfig: FrameworkConfiguration, pluginConfig
 
   // patch CustomEvent to allow constructor creation (IE/Chrome)
   // @ts-ignore - CustomEvent is not recognized
-  if (typeof window.CustomEvent !== "function" ) {
+  if (typeof window.CustomEvent !== "function") {
     // @ts-ignore - CustomEvent is not recognized
     window.CustomEvent = function (event: string, params: any) {
       params = params || { bubbles: false, cancelable: false, detail: undefined };

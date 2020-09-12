@@ -62,14 +62,3 @@ now you can register callbacks to the event just like any regular event (using `
 
 ##
 I Need help regarding how to test the plugin - PR welcome
-
-### How to run unit tests
-
-  * To run the unit test with _*Jest*_ run : _```npm run test:unit```_
-    * Watch mode: _```npm run test:unit -- --watch```_
-    * See the coverage: _```npm run test:unit -- --coverage```_
-
-### How to run E2E tests
-
-  * Simply run: _```npm run test:e2e```_
-    * Make sure you've run the sample prior to the e2e test by running the _`npm watch`_ command.

@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 // @ts-check
 const fs = require('fs');
 const path = require('path');
@@ -44,23 +45,23 @@ const writeFile = (file, data) => {
 // @ts-check
 const print = (color, comment, error) => {
   switch (color) {
-  case 'green':
-    color = '\x1b[32m';
-    break;
-  case 'white':
-    color = '\x1b[37m';
-    break;
-  case 'red':
-    color = '\x1b[31m';
-    break;
-  case 'blue':
-    color = '\x1b[36m';
-    break;
-  case 'purple':
-    color = '\x1b[35m';
-    break;
-  default:
-    color = '\x1b[37m';
+    case 'green':
+      color = '\x1b[32m';
+      break;
+    case 'white':
+      color = '\x1b[37m';
+      break;
+    case 'red':
+      color = '\x1b[31m';
+      break;
+    case 'blue':
+      color = '\x1b[36m';
+      break;
+    case 'purple':
+      color = '\x1b[35m';
+      break;
+    default:
+      color = '\x1b[37m';
   }
 
   if (error) {

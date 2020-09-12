@@ -19,7 +19,7 @@ typeAndLinter.startTreadAndWait();
 
 
 module.exports.runTypeChecker = function () {
-  
+
   // Same color..
   console.log('\x1b[36m%s\x1b[0m', 'app bundled- running type check');
 
