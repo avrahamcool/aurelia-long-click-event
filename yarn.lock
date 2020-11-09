@@ -488,9 +488,9 @@ aurelia-logging@^1.0.0:
   integrity sha512-R0UdpGYBNSosBZ9WefmoIpgr36szFwQrRk2pbblhI+Vx911dUEEW85QXb6BRKVAP1ykz52Fuq8lCZxR6UupQXA==
 
 aurelia-metadata@^1.0.0, aurelia-metadata@^1.0.2, aurelia-metadata@^1.0.3:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/aurelia-metadata/-/aurelia-metadata-1.0.6.tgz#6e6bbab464b03f94157de666aa40d86b40dadab0"
-  integrity sha512-u3GnsivLSssUmqPmny8EfEWPdUPcKUq1pPWO5q12i+eZ1d7WXa91eop37sYoYyGmO609YakUF1AMiY7occBrjA==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/aurelia-metadata/-/aurelia-metadata-1.0.7.tgz#7774701e1f02b5f731048d1a2bd5edb6059552d0"
+  integrity sha512-6Q3VV5VvCRjvJyICESwCNSWLkaYml9PAxHo5SjzVv+HNmvFtQRKRazczwECbTD6IWiE+O90+PmamPy4Ac2YnTA==
   dependencies:
     aurelia-pal "^1.0.0"
 
