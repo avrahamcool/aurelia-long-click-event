@@ -51,7 +51,7 @@
         "eslint": "^7.5.0",
         "fuse-box": "^3.3.0-next.9",
         "fuse-box-aurelia-loader": "^2.0.2",
-        "fuse-box-typechecker": "^2.9.0",
+        "fuse-box-typechecker": "^3.0.1",
         "less": "^3.0.4",
         "lodash": "^4.17.10",
         "readline-sync": "^1.4.9",
