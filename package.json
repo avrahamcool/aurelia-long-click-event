@@ -52,7 +52,7 @@
         "fuse-box": "^3.3.0-next.9",
         "fuse-box-aurelia-loader": "^2.0.2",
         "fuse-box-typechecker": "^2.9.0",
-        "less": "^3.0.4",
+        "less": "^4.0.0",
         "lodash": "^4.17.10",
         "readline-sync": "^1.4.9",
         "source-map": "^0.7.3",
