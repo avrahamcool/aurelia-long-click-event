@@ -51,13 +51,13 @@ export function configure(_frameworkConfig: FrameworkConfiguration, pluginConfig
   let timer: number = null;
 
   const startingEvents: string[] = ["touchstart", "mousedown"];
-  const endingEvents: string[] = ["touchcancel", "mouseout", "touchend", "mouseup", "mousewheel", "wheel", "scroll"]
+  const endingEvents: string[] = ["touchcancel", "mouseout", "touchend", "mouseup", "mousewheel", "wheel", "scroll"];
 
   // listen to mousedown event on any child element of the body
   startingEvents.forEach(eventName => {
     document.addEventListener(eventName, (e: Event) => {
       const el: EventTarget = e.target;
-  
+
       // start the timer
       timer = window.setTimeout(() => {
         // fire the long-press event
@@ -66,7 +66,7 @@ export function configure(_frameworkConfig: FrameworkConfiguration, pluginConfig
       }, clickDurationMS);
     });
   });
-  
+
   // clear the timeout if the user releases the mouse/touch/leaves the element/scroll
   endingEvents.forEach(eventName => {
     document.addEventListener(eventName, _ => {
